@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Sección 1: Menú */
+.menu-nav {
+    background-color: rgb(136, 136, 235);
+    padding: 15px;
+    margin: 10px;
+}
+/* Sección 2: Slider de fotos */
+.slider-container {
+    display: grid;
+    background-color: red;
+    padding: 30px;
+    margin: 10px;
+}
+/* Sección 3: Cards */
+.cards {
+    display: grid;
+    /* 3 columnas iguales */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.card {
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+    height: 15vh;
+}
+/* Sección 4: galerias */
+
+.section-galeria {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.imagen1 {
+    flex-grow: 1;
+    background-color: gray;
+    height: 40vh;
+    margin-right: 5px;
+}
+.imagenes {
+    flex-grow: 2;
+    display: grid;
+    /* 2 filas iguales */
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.textoi{
+    background-color: orange;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+/* Sección 5: Formulario de contacto y
+Fotografía */
+.contact-photo {
+    display: grid;
+    /* 2 columnas iguales */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+.contact-form {
+    background-color: green;
+}
+.photo {
+    display: grid;
+    background-color: crimson;
+    height: 180px;
+}
+/* Sección 6: Footer */
+.footer {
+    display: grid;
+    /* 3 columnas iguales */
+    grid-template-columns: repeat(3, 1fr);
+    height: 70px;
+}
+.social-media{
+    background-color: rgb(240, 182, 22);
+}
+.address{
+    background-color: rgb(194, 77, 10);
+}
+.logo{
+    background-color: blue;
+}
